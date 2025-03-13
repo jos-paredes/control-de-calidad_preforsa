@@ -41,3 +41,10 @@ app.*.map.json
 /android/app/debug
 /android/app/profile
 /android/app/release
+# Ignorar archivos de Flutter y VS Code
+.dart_tool/
+.build/
+.idea/
+.vscode/
+pubspec.lock
+*.log
